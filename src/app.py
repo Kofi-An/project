@@ -5,7 +5,7 @@ from datetime import datetime #https://stackoverflow.com/questions/15707532/impo
 import pandas as pd
 import dash_auth
 
-USERNAME_PASSWORD_PAIRS=[['username', 'password'], ['N', 'K']]
+USERNAME_PASSWORD_PAIRS=[['username', 'new_password'], ['Anku', 'Kofi@10']]
 
 app = Dash(__name__)
 server = app.server
